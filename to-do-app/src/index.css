@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2.7em;
+  line-height: 1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.container {
+  border: 1px solid grey;
+  padding: 0px 10px 10px 10px;
+}
+.todo-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.todo-input input {
+  background-color: azure;
+  width: 85%;
+  height: 2rem;
+  border-radius: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+.todo-input button {
+  background-color: green;
+  border-radius: 5rem;
+}
+.todo-list {
+  color: black;
+  border-radius: 1rem;
+  padding-inline-start: 2px;
+}
+.todo-list li {
+  list-style: none;
+  margin-top: 1rem;
+}
+.single-todo {
+  background-color: azure;
+  border-radius: 1rem;
+  padding-inline-start: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.util-btn {
+  padding: 0.3rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.util-btn .del {
+  background-color: brown;
+}
