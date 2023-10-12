@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.star-container {
+  font-size: 3rem;
+}
+
+.star {
+  padding: 5px;
+  color: rgb(132, 135, 135);
+  cursor: pointer;
+}
+
+.star-filled {
+  color: rgb(254, 254, 2);
+}
