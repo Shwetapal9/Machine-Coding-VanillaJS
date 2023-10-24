@@ -1,0 +1,34 @@
+.tab-container {
+  font-family: sans-serif;
+  width: 100%;
+  height: 350px;
+}
+.tab-container .button-container {
+  border: none;
+  height: 15%;
+}
+.tab-container .button-container button {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(205, 222, 217);
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+.tab-container .button-container button:hover {
+  background-color: cadetblue;
+}
+.tab-container .tab-content {
+  height: 85%;
+  background-color: gray;
+  color: white;
+  padding-top: 105px;
+  box-sizing: border-box;
+  font-size: 22px;
+  display: none;
+  text-align: center;
+}
